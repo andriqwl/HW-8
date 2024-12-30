@@ -1,0 +1,16 @@
+.text-box > h3:not(div + h3){
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+.text-box > div p{
+    color: red;
+}
+.text-box>p:nth-child(3n + 1){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+

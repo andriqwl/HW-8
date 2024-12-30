@@ -1,0 +1,72 @@
+/*days*/
+.monday:hover{
+    background-color: #0288D1;
+    color: #FFFFFF;
+}
+.tuesday:hover{
+    background-color: #FFC107;
+    color: #FAF4FF;
+}
+.wednesday:hover{
+    background-color: #8E24AA;
+    color: #FAF4FF;
+}
+.thursday:hover{
+    background-color: #388E3C;
+    color: #E8F5E9;
+}
+.friday:hover{
+    background-color: #757575;
+    color: #ECEFF1;
+}
+/*Lessons*/
+.first:hover{
+    background-color: #81D4FA;
+    color: #0D47A1;
+}
+.second:hover{
+    background-color: #FFE082;
+    color: #3E2723;
+}
+.third:hover{
+    background-color: #CE93D8;
+    color: #4A148C;
+}
+.third:focus{
+    outline: 2px solid blue;
+}
+.fourth:hover{
+    background-color: #A5D6A7;
+    color: #1B5E20;
+}
+.fifth:hover{
+    background-color: #BDBDBD;
+    color: #212121;
+}
+.fifth:active{
+    color: #0D47A1;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    background-color: #212121;
+    color: #000000;
+}
+a:visited{
+    background-color: #d11b1b;
+    color: #860e0e;
+}
+.first-row>td:nth-child(2n + 3){
+    background-color: #0D47A1;
+}
+.fifth-row>td:nth-child(-2n + 6){
+    background-color: #4A148C;
+}
+.seventh-row>td:nth-child(2n + 2){
+    background-color: #757575;
+}
+.second-row>td:nth-child(even){
+    background-color: #1ddd2d;
+}
+
